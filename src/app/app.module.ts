@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LogicalModelsComponent } from './logical-models/logical-models.component';
 import { MappingEditorComponent } from './mapping-editor/mapping-editor.component';
+import { InputFileComponent } from './input-file/input-file.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LogicalModelsComponent,
-    MappingEditorComponent
+    MappingEditorComponent,
+    InputFileComponent
   ],
   imports: [
     BrowserModule,
