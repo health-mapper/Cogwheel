@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InputFileComponent } from './input-file.component';
+import { MappingEditorComponent } from './mapping-editor.component';
 
-describe('InputFileComponent', () => {
-  let component: InputFileComponent;
-  let fixture: ComponentFixture<InputFileComponent>;
+describe('MappingEditorComponent', () => {
+  let component: MappingEditorComponent;
+  let fixture: ComponentFixture<MappingEditorComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ InputFileComponent ]
+      declarations: [ MappingEditorComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InputFileComponent);
+    fixture = TestBed.createComponent(MappingEditorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
